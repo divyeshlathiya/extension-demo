@@ -1,0 +1,27 @@
+{
+  "name": "blockchain-wallet-extension",
+  "version": "1.0.0",
+  "description": "A multi-chain blockchain wallet extension",
+  "main": "src/background/index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=development --watch"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.73.2",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^13.0.0",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
