@@ -1,29 +1,3 @@
-// const path = require('path');
-
-// module.exports = {
-//     mode: 'development',
-//     entry: {
-//         popup: './src/popup/index.js',
-//         background: './src/background/index.js',
-//         content: './src/content/index.js'
-//     },
-//     output: {
-//         path: path.resolve(__dirname, 'dist'),
-//         filename: '[name].bundle.js'
-//     },
-//     module: {
-//         rules: [
-//             {
-//                 test: /\.js$/,
-//                 exclude: /node_modules/,
-//                 use: {
-//                     loader: 'babel-loader'
-//                 }
-//             }
-//         ]
-//     }
-// };
-
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
